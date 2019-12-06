@@ -289,14 +289,11 @@ $pattern-background-size: 15em;
 
 		&.special {
 			margin-bottom: 5em;
-			padding-top: 7em;
 			position: relative;
 			text-align: center;
 
 			&:before,
 			&:after {
-				border-bottom: solid 1.5px;
-				border-top: solid 1.5px;
 				content: '';
 				height: 7px;
 				opacity: 0.1;
@@ -1625,7 +1622,6 @@ $pattern-background-size: 15em;
 			.button {
 				max-width: 20em;
 				width: 100%;
-
 				&.fit {
 					width: auto;
 				}
