@@ -815,6 +815,7 @@ $pattern-background-size: 15em;
 			right: 1.5em;
 			text-transform: uppercase;
 			top: 0.75em;
+			font-weight: bold;
 
 			ul {
 				list-style: none;
@@ -982,7 +983,6 @@ $pattern-background-size: 15em;
 		.inner {
 			@include vendor('animation', 'reveal-banner 1s 0.25s ease-in-out');
 			@include vendor('animation-fill-mode', 'forwards');
-			background: transparentize(_palette(banner, inner-bg), 0.5);
 			color: _palette(banner, inner-fg);
 			display: inline-block;
 			opacity: 0;
@@ -991,14 +991,8 @@ $pattern-background-size: 15em;
 
 			header {
 				display: inline-block;
-				border-bottom: solid 2px;
-				border-top: solid 2px;
 				margin: 0 0 2em 0;
 				padding: 3px 0 3px 0;
-
-				img {
-					width: 10em;
-				}
 
 				h2 {
 					border-bottom: solid 2px;
@@ -1010,6 +1004,7 @@ $pattern-background-size: 15em;
 					padding-left: 0.05em;
 					position: relative;
 					text-transform: uppercase;
+					color: #1c2021;
 				}
 			}
 
@@ -1017,6 +1012,7 @@ $pattern-background-size: 15em;
 				letter-spacing: 0.1em;
 				margin: 0;
 				text-transform: uppercase;
+				color: #1c2021;
 
 				a {
 					color: inherit;

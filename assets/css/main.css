@@ -96,7 +96,7 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 }
 
 body, input, select, textarea {
-  color: #7c8081;
+  color: #1c2021;
   font-family: "Lato", sans-serif;
   font-size: 15pt;
   font-weight: 300;
@@ -1675,7 +1675,7 @@ table.default th {
   text-align: left;
 }
 table.default thead {
-  background: #7c8081;
+  background: #1c2021;
   color: #fff;
 }
 /* Button */
@@ -1859,6 +1859,7 @@ button.small,
   right: 1.5em;
   text-transform: uppercase;
   top: 0.75em;
+  font-weight: bold;
 }
 #header nav ul {
   list-style: none;
@@ -2031,7 +2032,7 @@ button.small,
   background-position: bottom left, bottom right, center;
   background-repeat: no-repeat, no-repeat, repeat;
   background-size: 15em, 15em, 15em;
-  color: #000000;
+  color: #fff;
   cursor: default;
   padding: 6em 0;
   text-align: center;
@@ -2045,7 +2046,6 @@ button.small,
   -webkit-animation-fill-mode: forwards;
   -ms-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  background: rgba(52, 27, 43, 0.5);
   color: #fff;
   display: inline-block;
   opacity: 0;
@@ -2054,13 +2054,8 @@ button.small,
 }
 #banner .inner header {
   display: inline-block;
-  border-bottom: solid 2px;
-  border-top: solid 2px;
   margin: 0 0 2em 0;
   padding: 3px 0 3px 0;
-}
-#banner .inner header img {
-  width: 10em;
 }
 #banner .inner header h2 {
   border-bottom: solid 2px;
@@ -2072,11 +2067,13 @@ button.small,
   padding-left: 0.05em;
   position: relative;
   text-transform: uppercase;
+  color: #1c2021;
 }
 #banner .inner p {
   letter-spacing: 0.1em;
   margin: 0;
   text-transform: uppercase;
+  color: #1c2021;
 }
 #banner .inner p a {
   color: inherit;
@@ -2366,7 +2363,7 @@ button.small,
     padding: 5em 0;
   }
   #main .sidebar {
-    border-top: solid 1px rgba(124, 128, 129, 0.1);
+    border-top: solid 1px rgba(28, 32, 33, 0.1);
     padding-top: 3em;
   }
   #main .sidebar section {
