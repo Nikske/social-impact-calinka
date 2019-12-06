@@ -2148,6 +2148,15 @@ body.index #main {
   background: linear-gradient(to right, orange, yellow, green, cyan, blue, violet);
 }
 
+/* Contact */
+#contact {
+  color: #1c2021;
+}
+
+span {
+  margin-right: 0.8em;
+}
+
 /* Footer */
 #footer {
   background: #E8EEF4;
