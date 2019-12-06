@@ -1,4 +1,4 @@
-#1 Social impact Mama Calinka
+# :icecream: Social impact Mama Calinka :ice_cream:
 
 [Pages link](https://nikske.github.io/social-impact-calinka/)
 
