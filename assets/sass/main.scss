@@ -108,6 +108,7 @@ $pattern-background-size: 15em;
 			box-sizing: inherit;
 		}
 
+
 	body {
 		background: _palette(bg);
 
@@ -1056,23 +1057,46 @@ $pattern-background-size: 15em;
 		padding-top: 5em;
 	}
 
-/* CTA */
-
-	#cta {
-		background-attachment: scroll, scroll, scroll, fixed;
-		background-color: _palette(three, bg);
-		background-image: url('../css/images/light-tl.svg'), url('../css/images/light-tr.svg'), url('../css/images/overlay.png'), url('../../images/banner.jpg');
-		background-position: top left, top right, top left, bottom center;
-		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: $pattern-background-size, $pattern-background-size, auto, cover;
-		color: _palette(three, fg);
-		padding: 5em;
-		text-align: center;
-
-		header {
-			margin-bottom: 2em;
-		}
+	/* Flavours */
+	#flavours {
+		color: #1c2021;
 	}
+	%dots {
+		height: 1em;
+		width: 1em;
+		border-radius: 50%;
+		display: inline-block;
+		margin-right: 0.5em;
+	}
+	.white {
+		@extend %dots;
+		background-color: whitesmoke;
+	}
+	.ochre {
+		@extend %dots;
+		background-color: chocolate;
+	}
+	.brown {
+		@extend %dots;
+		background-color: #481f17;
+	}
+	.red {
+		@extend %dots;
+		background-color: maroon;
+	}
+	.pink {
+		@extend %dots;
+		background-color: palevioletred;
+	}
+	.yellow {
+		@extend %dots;
+		background-color: #fffc42;
+	}
+	.rainbow {
+		@extend %dots;
+		background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+	}
+
 
 /* Footer */
 

@@ -2107,20 +2107,45 @@ body.index #main {
   padding-top: 5em;
 }
 
-/* CTA */
-#cta {
-  background-attachment: scroll, scroll, scroll, fixed;
-  background-color: #645862;
-  background-image: url("../css/images/light-tl.svg"), url("../css/images/light-tr.svg"), url("../css/images/overlay.png"), url("../../images/banner.jpg");
-  background-position: top left, top right, top left, bottom center;
-  background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-  background-size: 15em, 15em, auto, cover;
-  color: #fff;
-  padding: 5em;
-  text-align: center;
+/* Flavours */
+#flavours {
+  color: #1c2021;
 }
-#cta header {
-  margin-bottom: 2em;
+
+.rainbow, .yellow, .pink, .red, .brown, .ochre, .white {
+  height: 1em;
+  width: 1em;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 0.5em;
+}
+
+.white {
+  background-color: whitesmoke;
+}
+
+.ochre {
+  background-color: chocolate;
+}
+
+.brown {
+  background-color: #481f17;
+}
+
+.red {
+  background-color: maroon;
+}
+
+.pink {
+  background-color: palevioletred;
+}
+
+.yellow {
+  background-color: #fffc42;
+}
+
+.rainbow {
+  background: linear-gradient(to right, orange, yellow, green, cyan, blue, violet);
 }
 
 /* Footer */
