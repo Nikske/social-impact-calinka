@@ -1387,64 +1387,6 @@ footer.major {
   padding-top: 3em;
 }
 
-/* Form */
-input[type=text],
-input[type=password],
-input[type=email],
-textarea {
-  -moz-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-  -webkit-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-  -ms-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  -ms-appearance: none;
-  appearance: none;
-  background: none;
-  border: solid 1px rgba(124, 128, 129, 0.2);
-  border-radius: 0;
-  color: inherit;
-  display: block;
-  padding: 0.75em;
-  text-decoration: none;
-  width: 100%;
-  outline: 0;
-}
-input[type=text]:focus,
-input[type=password]:focus,
-input[type=email]:focus,
-textarea:focus {
-  border-color: #83d3c9;
-}
-
-input[type=text],
-input[type=password],
-input[type=email] {
-  line-height: 1em;
-}
-
-::-webkit-input-placeholder {
-  color: inherit;
-  opacity: 0.5;
-  position: relative;
-  top: 3px;
-}
-
-:-moz-placeholder {
-  color: inherit;
-  opacity: 0.5;
-}
-
-::-moz-placeholder {
-  color: inherit;
-  opacity: 0.5;
-}
-
-:-ms-input-placeholder {
-  color: inherit;
-  opacity: 0.5;
-}
-
 /* Image */
 .image {
   border: 0;
@@ -1653,28 +1595,6 @@ ul.buttons.stacked li:first-child {
   padding: 0;
 }
 
-/* Table */
-table {
-  width: 100%;
-}
-table.default {
-  width: 100%;
-}
-table.default tbody tr {
-  border-bottom: solid 1px rgba(124, 128, 129, 0.2);
-}
-table.default td {
-  padding: 0.5em 1em 0.5em 1em;
-}
-table.default th {
-  font-weight: 400;
-  padding: 0.5em 1em 0.5em 1em;
-  text-align: left;
-}
-table.default thead {
-  background: #1c2021;
-  color: #fff;
-}
 /* Button */
 input[type=button],
 input[type=submit],
